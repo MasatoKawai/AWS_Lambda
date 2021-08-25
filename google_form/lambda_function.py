@@ -8,7 +8,7 @@ def lambda_handler(event, context):
     # タイムゾーンの生成
     JST = timezone(timedelta(hours=+9), 'JST')
     print(datetime.now(JST))
-    url = 'https://docs.google.com/forms/d/e/1FAIpQLSfNhWP1frYD2uFBVY_OL77_kbzmgyOgqQl2pyEv0XTUsITkkA/viewform'
+    url = 'https://docs.google.com/forms/d/e/************************************/viewform'
 
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
